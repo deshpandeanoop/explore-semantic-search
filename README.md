@@ -1,2 +1,1 @@
-# explore-semantic-search
-explore-semantic-search
+🧪 TownPulse is an experimental prototype built to explore end-to-end semantic search mechanics over structured and unstructured local data. It's a experimental semantic search engine for local community data. Built as a prototype to practice high-dimensional vector embeddings, metadata filtering, and dense retrieval.
