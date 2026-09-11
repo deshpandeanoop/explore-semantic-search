@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TownPulse Search</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="search-container">
+        <!-- Brand Title -->
+        <header class="brand-header">
+            <h1 class="brand-title">TownPulse</h1>
+            <p class="brand-subtitle">Semantic Search Engine</p>
+        </header>
+
+        <!-- Plain Centered Search Input -->
+        <div class="search-box">
+            <div class="input-wrapper">
+                <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+                <input type="text" id="queryInput"
+                    placeholder="Search places, activities, or intent (e.g., quiet cafe with outdoor seating)..."
+                    autocomplete="off" autofocus />
+                <button id="sendBtn" class="search-btn">Search</button>
+            </div>
+        </div>
+
+        <!-- Results Feed -->
+        <div class="results-container" id="resultsContainer"></div>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+
+</html>

@@ -1,7 +1,13 @@
 [project]
-name = "explore-semantic-search"
+name = "town-pulse"
 version = "0.1.0"
-description = "Add your description here"
+description = "Experimental semantic search engine for local community data. Built as a prototype to practice high-dimensional vector embeddings, metadata filtering, and dense retrieval."
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "fastapi>=0.141.1",
+    "pymilvus[milvus-lite]>=3.0.1",
+    "sentence-transformers>=6.0.1",
+    "torch>=2.14.0",
+    "uvicorn>=0.52.4",
+]
